@@ -46,7 +46,7 @@ const questions = () =>
         },
         {
             type: 'input',
-            message: "What does the user need to know about using the repo?",
+            message: "What does the user need to know about using the repo?"
         },
         {
             type: 'input',
@@ -57,15 +57,23 @@ const questions = () =>
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data);
-}
+    fs.writeFileSync(fileName, data, err => {
+        if (err) {
+            return console.log(err);
+        }
+        // console.log('Success! Your file has been generated!');
+    });
 
-// TODO: Create a function to initialize app
-function init() {
-    questions().then(responses => {
-        console.log('the answer is: ', responses.questions)
-    })
-}
+    const writeFile = inquirer.promisify(writeToFile);
 
-// Function call to initialize app
-init();
+    // TODO: Create a function to initialize app
+    function init() {
+        questions.then(responses => {
+            //console.log('the answer is: ', responses.questions)
+        })
+    }
+
+
+
+    // Function call to initialize app
+    init()
