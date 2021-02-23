@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const utils = require('utils')
+// const utils = require('utils')
 
 // TODO: Create an array of questions for user input
 const questions = () =>
@@ -54,7 +54,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
+    questions().then(responses => {
+        console.log('the answer is: ', responses.questions)
+    })
 }
 
 // Function call to initialize app
