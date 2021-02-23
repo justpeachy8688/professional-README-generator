@@ -58,13 +58,38 @@ const questions = () =>
 
 const generateMarkdown = (answers) =>
     `
-    [!image](http://img.shelds.io${answers.github}/${answers.project})
-    
-    # ${answers.project}
+<details open="open">
+<summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<ol>
+<a href="#about-the-project">About The Project</a>
+<ul>
+<li>
+<a href="#getting-started">Getting Started</a>
+</li>
+<ul>
+<li>
+<a href="#installation">Installation</a>
+</li>
+</ul>
+</li>
+<li><a href="#usage">Usage</a>
+</li>
+<li><a href="#contribute">Contribute</a>
+</li>
+<li><a href="#contact">Contact</a>
+</li>
+<li><a href="#license">License</a>
+</li>
+</ol>
+</details>
 
-    ## About The Project
+[!image](http://img.shelds.io${answers.github}/${answers.project})
 
-    # ${answers.description}
+# ${answers.project}
+
+## About The Project
+
+# ${answers.description}
 
 ## Getting Started
 To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code, Xcode or similar to edit the source code.
@@ -86,6 +111,8 @@ To get a local copy up and running follow these simple steps. You can also downl
 ## Contact
 
 # ${answers.email}
+
+## Contribute
 
 *To contribute to this project ${answers.repo}
 
