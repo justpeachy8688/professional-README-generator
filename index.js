@@ -58,7 +58,7 @@ const questions = () =>
 
 const generateMarkdown = (answers) =>
     `
-    http://img.shelds.io${answers.github}/${answers.project}
+    [!image](http://img.shelds.io${answers.github}/${answers.project})
     
     # ${answers.project}
 
