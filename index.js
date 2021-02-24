@@ -58,6 +58,10 @@ const questions = () =>
 
 const generateMarkdown = (answers) =>
     `
+# ${answers.project}
+
+![GitHub License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
 <details open="open">
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <ol>
@@ -82,10 +86,6 @@ const generateMarkdown = (answers) =>
 </li>
 </ol>
 </details>
-
-[!image](http://img.shelds.io${answers.github}/${answers.project})
-
-# ${answers.project}
 
 ## About The Project
 

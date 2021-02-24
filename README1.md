@@ -1,4 +1,8 @@
 
+## professional-README-generator
+
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 <details open="open">
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <ol>
@@ -24,26 +28,24 @@
 </ol>
 </details>
 
-[!image](http://img.shelds.iof/jk)
-
-# jk
+# professional-README-generator
 
 ## About The Project
 
-# d
+# Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
 
 ## Getting Started
 To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code, Xcode or similar to edit the source code.
 
 ### Installation
 
-# *Clone this repo: f to your local device. Use d to install dependencies.
+# *Clone this repo: justpeachy8688 to your local device. Use npm i to install dependencies.
 
 ## Usage
         
-# d
+# Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
 
-*To test this project run d
+*To test this project run npm test
 
 ## License
 
@@ -51,9 +53,9 @@ To get a local copy up and running follow these simple steps. You can also downl
 
 ## Contact
 
-# g
+# tsanders3515@gmail.com
 
 ## Contribute
 
-*To contribute to this project d
+*To contribute to this project Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
 
