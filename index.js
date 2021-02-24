@@ -1,9 +1,11 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-// const utils = require('utils')
 
-// TODO: Create an array of questions for user input
+
+
+
+// Created an array of questions for user input
 const questions = () =>
     inquirer.prompt([
         {
@@ -56,6 +58,7 @@ const questions = () =>
         }
     ]);
 
+//Function to hold what is exactly going to be in the markdown file
 const generateMarkdown = (answers) =>
     `
 # ${answers.project}
@@ -65,32 +68,34 @@ const generateMarkdown = (answers) =>
 <details open="open">
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <ol>
-<a href="#about-the-project">About The Project</a>
-<ul>
+<li>
+<a href="#description">Description</a>
+</li>
 <li>
 <a href="#getting-started">Getting Started</a>
 </li>
-<ul>
 <li>
 <a href="#installation">Installation</a>
 </li>
 <li>
 <a href="#tests">Tests</a>
 </li>
-</ul>
+<li>
+<a href="#usage">Usage</a>
 </li>
-<li><a href="#usage">Usage</a>
+<li>
+<a href="#license">License</a>
 </li>
-<li><a href="#contribute">Contribute</a>
+<li>
+<a href="#contribute">Contribute</a>
 </li>
-<li><a href="#contact">Contact</a>
-</li>
-<li><a href="#license">License</a>
+<li>
+<a href="#questions">Questions</a>
 </li>
 </ol>
 </details>
 
-## About The Project
+## Description
 
 ${answers.description}
 
@@ -112,11 +117,11 @@ ${answers.user}
 
 ## License
 
-${answers.license[0]}
+${answers.license} | See badge above.
 
 ## Contribute
 
-To contribute to this project ${answers.repo}
+To contribute to this project: ${answers.repo}
 
 ## Questions?
 
@@ -125,6 +130,7 @@ If you have any additional questions, email me here: ${answers.email}
 
 `
 
+//this initializes the app
 const init = () => {
     questions().then((answers) => {
         try {
@@ -138,31 +144,3 @@ const init = () => {
 };
 
 init();
-
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFileSync(fileName, data, err => {
-//         if (err) {
-//             return console.log(err);
-//         }
-//         // console.log('Success! Your file has been generated!');
-//     });
-// }
-
-// const writeFile = inquirer.promisify(writeToFile);
-
-// // TODO: Create a function to initialize app
-// function init() {
-//     questions.then(responses => {
-//         //console.log('the answer is: ', responses.questions)
-//     })
-// }
-
-
-
-// // Function call to initialize app
-// questions().then((answers => {
-//     console.log(answers)
-// }))
-
