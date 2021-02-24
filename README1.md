@@ -1,5 +1,5 @@
 
-## professional-README-generator
+# professional-README-generator
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -15,6 +15,9 @@
 <li>
 <a href="#installation">Installation</a>
 </li>
+<li>
+<a href="#tests">Tests</a>
+</li>
 </ul>
 </li>
 <li><a href="#usage">Usage</a>
@@ -28,34 +31,38 @@
 </ol>
 </details>
 
-# professional-README-generator
-
 ## About The Project
 
-# Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
+Eiusmod ball tip corned beef proident ut consequat. Pork loin corned beef tri-tip reprehenderit. Biltong ullamco swine eiusmod venison sausage. Laborum sint filet mignon, chuck turducken cupidatat strip steak pork belly voluptate tongue.
 
 ## Getting Started
-To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code, Xcode or similar to edit the source code.
 
-### Installation
+To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code.
 
-# *Clone this repo: justpeachy8688 to your local device. Use npm i to install dependencies.
+## Installation
+
+Clone this repo: github.com/justpeachy8688/professional-README-generator to your local device. Use npm i to install dependencies.
+
+## Tests
+
+Here we are using the default, npm test to run the tests in the command line.
 
 ## Usage
-        
-# Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
+
+Eiusmod ball tip corned beef proident ut consequat. Pork loin corned beef tri-tip reprehenderit. Biltong ullamco swine eiusmod venison sausage. Laborum sint filet mignon, chuck turducken cupidatat strip steak pork belly voluptate tongue.
 
 *To test this project run npm test
 
 ## License
 
-# MIT
-
-## Contact
-
-# tsanders3515@gmail.com
+MIT
 
 ## Contribute
 
-*To contribute to this project Compassion disrupt data empower communities deep dive. Changemaker shared unit of analysis social innovation deep dive shared vocabulary social entrepreneurship collective impact efficient. Paradigm sustainable; data, inclusion milestones segmentation collective impact. Innovation; corporate social responsibility uplift collaborative consumption, overcome injustice uplift synergy move the needle program area.
+To contribute to this project 
+
+## Questions?
+
+If you have any additional questions, email me here: tsanders3515@gmail.com
+<br>Or visit my GitHub profile here: github.com/justpeachy8688
 

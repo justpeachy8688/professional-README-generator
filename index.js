@@ -74,6 +74,9 @@ const generateMarkdown = (answers) =>
 <li>
 <a href="#installation">Installation</a>
 </li>
+<li>
+<a href="#tests">Tests</a>
+</li>
 </ul>
 </li>
 <li><a href="#usage">Usage</a>
@@ -89,32 +92,36 @@ const generateMarkdown = (answers) =>
 
 ## About The Project
 
-# ${answers.description}
+${answers.description}
 
 ## Getting Started
-To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code, Xcode or similar to edit the source code.
 
-### Installation
+To get a local copy up and running follow these simple steps. You can also download the source files provided. You will need a text editor such as Visual Studio Code.
 
-# *Clone this repo: ${answers.github} to your local device. Use ${answers.dependencies} to install dependencies.
+## Installation
+
+Clone this repo: github.com/${answers.github}/professional-README-generator to your local device. Use ${answers.dependencies} to install dependencies.
+
+## Tests
+
+If you would like to test this project, run ${answers.tests}.
 
 ## Usage
-        
-# ${answers.user}
 
-*To test this project run ${answers.tests}
+${answers.user}
 
 ## License
 
-# ${answers.license[0]}
-
-## Contact
-
-# ${answers.email}
+${answers.license[0]}
 
 ## Contribute
 
-*To contribute to this project ${answers.repo}
+To contribute to this project ${answers.repo}
+
+## Questions?
+
+If you have any additional questions, email me here: ${answers.email}
+<br>Or visit my GitHub profile here: github.com/${answers.github}
 
 `
 
