@@ -1,5 +1,5 @@
 
-# testing
+# professional-README-generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,7 +35,7 @@
 
 ## Description
 
-testing
+Parsley corn lentil zucchini radicchio maize burdock avocado sea lettuce. Garbanzo tigernut earthnut pea fennel.
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple steps. You can also downl
 
 ## Installation
 
-Clone this repo: github.com/justpeachy/professional-README-generator to your local device. Use npm i to install dependencies.
+Clone this repo: github.com/justpeachy8688/professional-README-generator to your local device. Use npm i to install dependencies.
 
 ## Tests
 
@@ -63,6 +63,6 @@ To contribute to this project: testing
 
 ## Questions?
 
-If you have any additional questions, email me here: ta@g.com
-<br>Or visit my GitHub profile here: github.com/justpeachy
+If you have any additional questions, email me here: taylor@mail.com
+<br>Or visit my GitHub profile here: github.com/justpeachy8688
 
