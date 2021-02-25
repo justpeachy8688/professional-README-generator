@@ -1,5 +1,9 @@
 # professional-readme-generator
 
+![Gif Example](assets/screencastify-readme.gif)
+
+🎥 The full movie file showing functionality of the application can be found [here](./assets/screencastify-readme.gif)
+
 ## Description
 Every good project needs a quality README with information about the app - what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project.
 
