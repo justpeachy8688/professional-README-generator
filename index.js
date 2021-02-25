@@ -60,18 +60,24 @@ const questions = () =>
 
 //License badge choice
 function renderLicenseBadge(license) {
-    // return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     switch (license) {
-        case 0:
+        case "MIT":
             `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-        case 2:
+            break;
+        case "Apache 2.0":
             `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-        case 3:
+            break;
+        case "GPL 3.0":
             `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
-        case 4:
+            break;
+        case "BSD 3":
             `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
-        case 5:
+            break;
+        case "None":
             ``
+            break;
+        default:
+            `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     }
 }
 //THIS IF ELSE STATEMENT DID NOT WORK BELOW

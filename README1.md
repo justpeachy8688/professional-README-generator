@@ -1,7 +1,7 @@
 
-# testing
+# professional-README-generator
 
-
+undefined
 
 <details open="open">
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple steps. You can also downl
 
 ## Installation
 
-Clone this repo: github.com/test/professional-README-generator to your local device. Use npm i to install dependencies.
+Clone this repo: github.com/justpeachy8688/professional-README-generator to your local device. Use npm i to install dependencies.
 
 ## Tests
 
@@ -59,10 +59,10 @@ APACHE 2.0 | See badge above.
 
 ## Contribute
 
-To contribute to this project: testing
+To contribute to this project: testin
 
 ## Questions?
 
-If you have any additional questions, email me here: testing
-<br>Or visit my GitHub profile here: github.com/test
+If you have any additional questions, email me here: tsanders3515@gmail.com
+<br>Or visit my GitHub profile here: github.com/justpeachy8688
 
