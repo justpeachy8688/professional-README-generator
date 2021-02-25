@@ -62,22 +62,17 @@ const questions = () =>
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
-            `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-            break;
+            return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
         case "Apache 2.0":
-            `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-            break;
+            return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
         case "GPL 3.0":
-            `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
-            break;
+            return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
         case "BSD 3":
-            `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
-            break;
+            return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
         case "None":
-            ``
-            break;
+            return ``
         default:
-            `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+            return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     }
 }
 //THIS IF ELSE STATEMENT DID NOT WORK BELOW
@@ -95,8 +90,9 @@ function renderLicenseBadge(license) {
 // }
 
 //Function to hold what is exactly going to be in the markdown file
-const generateMarkdown = (answers) =>
-    `
+const generateMarkdown = (answers) => {
+
+    return `
 # ${answers.project}
 
 ${renderLicenseBadge(answers.license)}
@@ -165,6 +161,8 @@ If you have any additional questions, email me here: ${answers.email}
 <br>Or visit my GitHub profile here: github.com/${answers.github}
 
 `
+}
+
 
 //this initializes the app
 const init = () => {

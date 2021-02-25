@@ -1,7 +1,7 @@
 
-# professional-README-generator
+# testing
 
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <details open="open">
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple steps. You can also downl
 
 ## Installation
 
-Clone this repo: github.com/justpeachy8688/professional-README-generator to your local device. Use npm i to install dependencies.
+Clone this repo: github.com/justpeachy/professional-README-generator to your local device. Use npm i to install dependencies.
 
 ## Tests
 
@@ -55,14 +55,14 @@ testing
 
 ## License
 
-APACHE 2.0 | See badge above.
+MIT | See badge above.
 
 ## Contribute
 
-To contribute to this project: testin
+To contribute to this project: testing
 
 ## Questions?
 
-If you have any additional questions, email me here: tsanders3515@gmail.com
-<br>Or visit my GitHub profile here: github.com/justpeachy8688
+If you have any additional questions, email me here: ta@g.com
+<br>Or visit my GitHub profile here: github.com/justpeachy
 
