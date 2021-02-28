@@ -1,5 +1,5 @@
 
-# professional-README-generator
+# readme-generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,7 +35,7 @@
 
 ## Description
 
-Parsley corn lentil zucchini radicchio maize burdock avocado sea lettuce. Garbanzo tigernut earthnut pea fennel.
+Ye parley crow's nest coffer hail-shot yawl six pounders spanker run a shot across the bow rum. Carouser pinnace cable mutiny grog man-of-war Blimey port Plate Fleet pillage. Skysail parley ho clipper Brethren of the Coast sutler starboard spirits coffer booty.
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ If you would like to test this project, run npm test.
 
 ## Usage
 
-testing
+Ye parley crow's nest coffer hail-shot yawl six pounders spanker run a shot across the bow rum. Carouser pinnace cable mutiny grog man-of-war Blimey port Plate Fleet pillage. Skysail parley ho clipper Brethren of the Coast sutler starboard spirits coffer booty.
 
 ## License
 
@@ -59,10 +59,9 @@ MIT | See badge above.
 
 ## Contribute
 
-To contribute to this project: testing
+To contribute to this project: Ye parley crow's nest coffer hail-shot yawl six pounders spanker run a shot across the bow rum. Carouser pinnace cable mutiny grog man-of-war Blimey port Plate Fleet pillage. Skysail parley ho clipper Brethren of the Coast sutler starboard spirits coffer booty.
 
 ## Questions?
 
-If you have any additional questions, email me here: taylor@mail.com
+If you have any additional questions, email me here: tsanders3515@gmail.com
 <br>Or visit my GitHub profile here: github.com/justpeachy8688
-

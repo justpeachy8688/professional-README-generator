@@ -2,9 +2,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-
-
-
 // Created an array of questions for user input
 const questions = () =>
     inquirer.prompt([
@@ -75,19 +72,6 @@ function renderLicenseBadge(license) {
             return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     }
 }
-//THIS IF ELSE STATEMENT DID NOT WORK BELOW
-
-// if (license === "MIT") {
-//     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-// } else if (license === "Apache 2.0") {
-//     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-// } else if (license === "GPL 3.0") {
-//     return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-// } else if (license === "BSD 3.0") {
-//     return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
-// } else {
-//     return ``
-// }
 
 //Function to hold what is exactly going to be in the markdown file
 const generateMarkdown = (answers) => {
@@ -159,10 +143,8 @@ To contribute to this project: ${answers.repo}
 
 If you have any additional questions, email me here: ${answers.email}
 <br>Or visit my GitHub profile here: github.com/${answers.github}
-
 `
 }
-
 
 //this initializes the app
 const init = () => {
